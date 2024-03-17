@@ -1,4 +1,5 @@
 노션 상세 정보: https://amethyst-curler-97f.notion.site/ICT-2020-05-2020-11-64f348bf148b4c93a89d0bb715ad7e6a?pvs=4
+
 [ 프로젝트명 ]
 ・운동관리 기능을 가진 스마트 자전거 및 관리 앱 개발
 
@@ -22,3 +23,7 @@ Language : C, C++
 
 ⌚TimeLine
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/24a7e161-87c3-4d7b-a830-c57b186a1e43/ef5c2380-4673-4648-a84f-dd48d14c42a1/Untitled.png)
+
+🎖️2020 한이음 ICT 멘토링 수료증
+![image](https://github.com/Nam-I/2020_SmartBicycle/assets/71905358/c737b1ac-27ec-4892-b573-0d8cb34be028)
+
