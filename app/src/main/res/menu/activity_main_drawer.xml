@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_black"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/face"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/groups"
+            android:title="@string/menu_community" />
+
+        <!-- 문재연 -->
+        <item
+            android:id="@+id/nav_riding_record"
+            android:icon="@drawable/flag_black"
+            android:title="@string/menu_riding_record" />
+        <!-- 문재연 -->
+
+        <item
+            android:id="@+id/nav_recommend_path"
+            android:icon="@drawable/flag"
+            android:title="추천경로" />
+        <item
+            android:id="@+id/nav_find_way"
+            android:icon="@drawable/place"
+            android:title="@string/menu_find_Way" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/set_up"
+            android:title="@string/menu_setting" />
+    </group>
+</menu>

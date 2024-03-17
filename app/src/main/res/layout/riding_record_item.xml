@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp">
+
+    <!-- n번째 주행 날짜 -->
+    <TextView
+        android:id="@+id/item_riding_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_riding_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+
+        android:textSize="10pt" />
+
+    <!-- 걸린시간 -->
+
+    <TextView
+        android:id="@+id/item_riding_time_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/item_riding_count"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+
+        android:text="@string/riding_record_item_riding_time_str"
+        android:textSize="9pt"
+        android:textColor="@color/record_str"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_riding_time_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="@id/item_riding_time_str"
+        app:layout_constraintLeft_toRightOf="@id/item_riding_time_str"
+
+        android:layout_marginStart="20dp"
+
+        android:textSize="9pt" />
+
+
+    <!-- 이동거리 -->
+
+
+    <TextView
+        android:id="@+id/item_riding_distance_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="@id/item_riding_time_str"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.62"
+
+        android:text="@string/riding_record_item_distance_str"
+        android:textSize="9pt"
+        android:textColor="@color/record_str"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_riding_distance_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="@id/item_riding_distance_str"
+        app:layout_constraintLeft_toRightOf="@id/item_riding_distance_str"
+
+        android:layout_marginStart="20dp"
+
+        android:textSize="9pt" />
+
+    <!-- 평균속도 -->
+
+    <TextView
+        android:id="@+id/item_riding_average_speed_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/item_riding_time_str"
+        app:layout_constraintLeft_toLeftOf="@id/item_riding_time_str"
+
+        android:layout_marginTop="10dp"
+
+        android:text="@string/riding_record_item_average_speed_str"
+        android:textSize="9pt"
+        android:textColor="@color/record_str"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_riding_average_speed_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="@id/item_riding_average_speed_str"
+        app:layout_constraintLeft_toRightOf="@id/item_riding_average_speed_str"
+
+        android:layout_marginStart="20dp"
+
+        android:textSize="9pt" />
+
+    <!-- 최고속도 -->
+
+    <TextView
+        android:id="@+id/item_riding_highest_speed_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="@id/item_riding_average_speed_str"
+        app:layout_constraintLeft_toLeftOf="@id/item_riding_distance_str"
+
+        android:text="@string/riding_record_item_highest_str"
+        android:textSize="9pt"
+        android:textColor="@color/record_str"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_riding_highest_speed_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="@id/item_riding_highest_speed_str"
+        app:layout_constraintLeft_toRightOf="@id/item_riding_highest_speed_str"
+
+        android:layout_marginStart="20dp"
+
+        android:textSize="9pt" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/layout_border"
+            >
+
+            <ImageView
+                android:id="@+id/imageView_bluetooth"
+                android:layout_width="10dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bluetooth" />
+
+            <Switch
+                android:id="@+id/switch_bluetooth"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:text="Bluetooth"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/layout_border"
+            >
+
+            <ImageView
+                android:id="@+id/imageView_gps"
+                android:layout_width="10dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/gps" />
+
+            <Switch
+                android:id="@+id/switch_gps"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:text="GPS"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/layout_border"
+            >
+
+            <ImageView
+                android:id="@+id/imageView_alarm"
+                android:layout_width="10dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bell" />
+
+            <Switch
+                android:id="@+id/switch_alarm"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:text="Alarm"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/layout_border"
+            >
+
+            <ImageView
+                android:id="@+id/imageView_light"
+                android:layout_width="10dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/light" />
+
+            <Switch
+                android:id="@+id/switch_light"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:text="Light"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="Setting Fragment"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

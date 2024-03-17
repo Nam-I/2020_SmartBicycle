@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.smartbicycle.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.smartbicycle.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_community"
+        android:name="com.example.smartbicycle.ui.community.CommunityFragment"
+        android:label="@string/menu_community"
+        tools:layout="@layout/fragment_community" />
+
+    <fragment
+        android:id="@+id/nav_riding_record"
+        android:name="com.example.smartbicycle.ui.riding_record.RidingRecordFragment"
+        android:label="@string/menu_riding_record"
+        tools:layout="@layout/fragment_riding_record" />
+
+    <fragment
+        android:id="@+id/nav_recommend_path"
+        android:name="com.example.smartbicycle.ui.recommend_path.RecommendPathFragment"
+        android:label="@string/menu_recommend_path"
+        tools:layout="@layout/fragment_recommend_path" />
+
+    <fragment
+        android:id="@+id/nav_find_way"
+        android:name="com.example.smartbicycle.ui.find_way.Find_WayFragment"
+        android:label="@string/menu_find_Way"
+        tools:layout="@layout/fragment_find_way" />
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.smartbicycle.ui.setting.SettingFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_setting" />
+
+
+</navigation>
