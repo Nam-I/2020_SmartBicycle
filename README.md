@@ -22,12 +22,12 @@ Sensor : 자이로 센서, 가속도 센서, 지자기 센서, 케이던스 센�
 Communications : bluetooth module
 Language : C, C++
 
-# [ ⌚TimeLine ]
+# ⌚TimeLine
 
 ![image](https://github.com/Nam-I/2020_SmartBicycle/assets/71905358/ba54eaa3-3526-418e-a5e2-7bbec3cae593)
 
 
-# [ 🎖️2020 한이음 ICT 멘토링 수료증 ]
+# 🎖️2020 한이음 ICT 멘토링 수료증
 
 ![image](https://github.com/Nam-I/2020_SmartBicycle/assets/71905358/c737b1ac-27ec-4892-b573-0d8cb34be028)
 
