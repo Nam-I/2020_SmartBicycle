@@ -17,10 +17,10 @@ https://amethyst-curler-97f.notion.site/ICT-2020-05-2020-11-64f348bf148b4c93a89d
 - Language : JAVA, XML
 
 #### [ HW 개발환경 ]
-Device : Arduino Board
-Sensor : 자이로 센서, 가속도 센서, 지자기 센서, 케이던스 센서, 충격 센서, 라이다 센서, gps 모듈
-Communications : bluetooth module
-Language : C, C++
+- Device : Arduino Board
+- Sensor : 자이로 센서, 가속도 센서, 지자기 센서, 케이던스 센서, 충격 센서, 라이다 센서, gps 모듈
+- Communications : bluetooth module
+- Language : C, C++
 
 # ⌚TimeLine
 
